@@ -64,7 +64,7 @@ if( ("accumulated_cost_40km_final@1" / 60) <= 240, 7, 8 )))))))
 
 ### Общая карта расположения памятников
 
-![Общая карта](/maps/general_map.png)
+https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis/maps/general_map.png
 
 *Рис. 1. Писаницы и археологические памятники разных культур в долинах рек Северного и Среднего Урала.*
 
@@ -72,7 +72,7 @@ if( ("accumulated_cost_40km_final@1" / 60) <= 240, 7, 8 )))))))
 
 ### Карта изохрон (зоны пешей доступности)
 
-![Изохроны](/maps/isochrones_map.png)
+https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis/maps/isochrones_map.png
 
 *Рис. 2. Время доступа от писаниц с учётом рельефа. В скобках – количество археологических памятников в каждой зоне.*
 
@@ -94,9 +94,10 @@ if( ("accumulated_cost_40km_final@1" / 60) <= 240, 7, 8 )))))))
 
 
 
-- [Классификация писаниц по эпохам](/sql_queries/classification_queries.sql#L7-L30)
-- [Классификация иных памятников по эпохам](/sql_queries/classification_queries.sql#L33-L56)
-- [Классификация по археологическим культурам (25 групп)](/sql_queries/classification_queries.sql#L59-L96)
+- [Классификация писаниц по эпохам](https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/sql_queries/classification_queries.sql#L7-L30)
+- [Классификация иных памятников по эпохам](https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/sql_queries/classification_queries.sql#L33-L56)
+- [Классификация по археологическим культурам (25 групп)](https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/sql_queries/classification_queries.sql#L59-L96)
+
 
 **Пример (классификация писаниц по эпохам):**
 
@@ -119,7 +120,7 @@ END
 ### Распределение археологических памятников по зонам доступности
 
 **Таблица 1.** Количество и доля памятников в каждой временной зоне (изохроны).  
-[Скачать CSV](/output/table_3.1_distribution_by_zones.csv)
+urals-rock-art-gis/output/table_3.1_distribution_by_zones.csv
 
 | Зона (мин) | Количество памятников | Доля (%) |
 |------------|----------------------|----------|
@@ -141,10 +142,9 @@ END
 
 На основе данных таблицы 3.2 построена столбчатая диаграмма с накоплением:
 
-![Распределение эпох по зонам](/output/charts/epochs_stacked_bar.png)  
+urals-rock-art-gis/output/table_3.2_epochs_by_zone.csv  
 *Рис. 3. Вклад разных археологических эпох в каждой зоне доступности (абсолютные числа).*
 
-Исходные данные: [скачать CSV](/output/table_3.2_epochs_by_zone.csv)
 
 ---
 
@@ -152,10 +152,9 @@ END
 
 Диаграмма для 7 основных культур (остальные объединены в «Прочие»):
 
-![Распределение культур по зонам](/output/charts/cultures_stacked_bar.png)  
+urals-rock-art-gis/output/table_3.3_cultures_by_zone.csv
 *Рис. 4. Основные археологические культуры в зонах доступности.*
 
-Исходные данные: [скачать CSV](/output/table_3.3_cultures_by_zone.csv)
 
 ---
 
@@ -172,7 +171,7 @@ END
 | Ранний железный век | 1 | 16 |
 | Средневековье | 6 | 5 |
 
-[Скачать CSV](/output/table_3.6_comparison_epochs.csv)
+urals-rock-art-gis/output/table_3.6_comparison_epochs.csv
 
 **Таблица 3.** Те же данные по культурам:
 
@@ -187,9 +186,17 @@ END
 | Шигирская | 0 | 5 |
 | Родановская | 0 | 3 |
 
-[Скачать CSV](/output/table_3.7_comparison_cultures.csv)
+urals-rock-art-gis/output/table_3.7_comparison_cultures.csv
 
 *Интерпретация:* культуры, ассоциируемые с энеолитом и бронзой (аятская, коптяковская), активно создавали писаницы, но не жили рядом. Культуры раннего железного века (гамаюнская, иткульская) и средневековья (родановская) заселяли ближнюю зону, но новых рисунков почти не оставили.
 
+
+## ✍️ Автор
+
+**Сухорукова Александра Тимофеевна**  
+Выпускница бакалавриата по археологии (ГАУГН, 2026)  
+[GitHub](https://github.com/sukhorukova-a) · [Email](mailto:sukhorukova.alexandra03@mail.ru)
+
+*Данное портфолио создано для демонстрации навыков ГИС-анализа, SQL и пространственного моделирования при поиске стажировки в области аналитики данных / ГИС.*
 
 
