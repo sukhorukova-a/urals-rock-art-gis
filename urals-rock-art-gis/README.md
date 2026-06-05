@@ -92,7 +92,8 @@ https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis
 
 Все запросы выполнены в QGIS (Field Calculator / Virtual Layer).
 
-- Классификация писаниц по эпохам — см. файл urals-rock-art-gis/sql_queries/classification_queries.sql
+- Классификация писаниц по эпохам — см. файл
+  urals-rock-art-gis/sql_queries/classification_queries.sql
 - Классификация иных памятников по эпохам — там же
 - Классификация по археологическим культурам — там же
 
@@ -193,7 +194,10 @@ urals-rock-art-gis/output/table_3.7_comparison_cultures.csv
 
 **Сухорукова Александра Тимофеевна**  
 Выпускница бакалавриата по археологии (ГАУГН, 2026)  
-[GitHub](https://github.com/sukhorukova-a) · [Email](mailto:sukhorukova.alexandra03@mail.ru)
+GitHub
+https://github.com/sukhorukova-a
+Email
+sukhorukova.alexandra03@mail.ru
 
 *Данное портфолио создано для демонстрации навыков ГИС-анализа, SQL и пространственного моделирования при поиске стажировки в области аналитики данных / ГИС.*
 
