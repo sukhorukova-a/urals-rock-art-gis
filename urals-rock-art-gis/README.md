@@ -141,7 +141,7 @@ https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis
 
 На основе данных таблицы 3.2 построена столбчатая диаграмма с накоплением:
 
-https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis/output/table_3.2_epochs_by_zone.csv  
+https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis/output/charts/epochs_stacked_bar.png  
 *Рис. 3. Вклад разных археологических эпох в каждой зоне доступности (абсолютные числа).*
 
 
@@ -151,7 +151,7 @@ https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis
 
 Диаграмма для 7 основных культур (остальные объединены в «Прочие»):
 
-https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis/output/table_3.3_cultures_by_zone.csv
+https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis/output/charts/cultures_stacked_bar.png
 *Рис. 4. Основные археологические культуры в зонах доступности.*
 
 
