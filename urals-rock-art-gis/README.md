@@ -92,11 +92,9 @@ https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis
 
 Все запросы выполнены в QGIS (Field Calculator / Virtual Layer).
 
-
-
-- [Классификация писаниц по эпохам](https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/sql_queries/classification_queries.sql#L7-L30)
-- [Классификация иных памятников по эпохам](https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/sql_queries/classification_queries.sql#L33-L56)
-- [Классификация по археологическим культурам (25 групп)](https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/sql_queries/classification_queries.sql#L59-L96)
+- [Классификация писаниц по эпохам](/sql_queries/classification_queries.sql)
+- [Классификация иных памятников по эпохам](/sql_queries/classification_queries.sql)
+- [Классификация по археологическим культурам (25 групп)](/sql_queries/classification_queries.sql)
 
 
 **Пример (классификация писаниц по эпохам):**
