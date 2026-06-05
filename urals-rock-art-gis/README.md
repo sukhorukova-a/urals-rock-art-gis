@@ -92,7 +92,7 @@ https://github.com/sukhorukova-a/urals-rock-art-gis/blob/main/urals-rock-art-gis
 
 Все запросы выполнены в QGIS (Field Calculator / Virtual Layer).
 
-- Классификация писаниц по эпохам — см. файл [`classification_queries.sql`](/sql_queries/classification_queries.sql)
+- Классификация писаниц по эпохам — см. файл urals-rock-art-gis/sql_queries/classification_queries.sql
 - Классификация иных памятников по эпохам — там же
 - Классификация по археологическим культурам — там же
 
